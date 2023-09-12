@@ -4,10 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-     "sass": "sass --watch src/scss:build/css",
-    "tarea": "gulp tarea" , 
-     "dev" : "gulp dev"
-
+    "sass": "sass --watch src/scss:build/css",
+    "tarea": "gulp tarea",
+     "dev": "gulp dev"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +15,7 @@
   },
   "devDependencies": {
     "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
     "gulp-sass": "^5.1.0"
   }
 }
