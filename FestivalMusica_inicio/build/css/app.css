@@ -684,3 +684,13 @@ picture {
   font-size: 2.4rem;
   font-weight: 700;
 }
+
+.site-footer {
+  background-color: #f537f3;
+  padding: 1rem;
+}
+.site-footer p {
+  margin: 0;
+  text-align: center;
+  color: #FFFFFF;
+}
