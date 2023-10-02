@@ -10,6 +10,10 @@ function iniciarApp(){
 
 function crearGaleria(){ 
     const galeria = document.querySelector('.galeria-imagenes')
+   
+    for(let i = 0 ; i <= 12 ; i++) {
+    const imagenes = document.createElement('picture')
 
-    galeria.textContent = 'Vamos a crear la galeria';
+    console.log(imagenes)
+    }
 }
