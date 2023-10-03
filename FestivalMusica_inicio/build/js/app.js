@@ -13,14 +13,17 @@ function iniciarApp(){
 
 function navegacionFija() {
     const barra = document.querySelector('.header') ; 
-    const sobreFestival = document.querySelector('.sobre-festival')
+    const sobreFestival = document.querySelector('.sobre-festival');
+    const body = document.querySelector('body-scroll')
 
     window.addEventListener('scroll',function(){
 
         if(sobreFestival.getBoundingClientRect().top < 0){
        barra.classList.add('fijo')
+       body.classList.add('fijo')
         } else {
             barra.classList.remove('fijo')
+            body.classList.remove('body-scroll')
         }
     })
 }
